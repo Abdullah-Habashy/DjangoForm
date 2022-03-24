@@ -1,0 +1,8 @@
+<h1>Our users : {{dataUserCount}} </h1>
+{% for user in dataUser %}
+
+<h3>{{user.name}}</h3>
+<h4>{{user.mail}}</h4>
+<h4>{{user.phone}}</h4>
+<hr>
+{% endfor %}
